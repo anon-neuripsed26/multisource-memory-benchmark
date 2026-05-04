@@ -1,0 +1,128 @@
+{
+  "A1": {
+    "question_id": "A1",
+    "question_type": "arbitration",
+    "question_topic": "sleep",
+    "answer": "20_or_more",
+    "derivation_detail": "good_nights=30/30"
+  },
+  "A2": {
+    "question_id": "A2",
+    "question_type": "arbitration",
+    "question_topic": "work",
+    "answer": "0_to_3",
+    "derivation_detail": "overtime_days=3/20"
+  },
+  "A3": {
+    "question_id": "A3",
+    "question_type": "arbitration",
+    "question_topic": "diet",
+    "answer": "70_or_more",
+    "derivation_detail": "home=65/total=78 ratio=0.833"
+  },
+  "B2": {
+    "question_id": "B2",
+    "question_type": "identity",
+    "question_topic": "exercise",
+    "answer": "within_1_day",
+    "derivation_detail": "profile=1.8/wk actual=2.33/wk delta=+0.53"
+  },
+  "B3": {
+    "question_id": "B3",
+    "question_type": "identity",
+    "question_topic": "work",
+    "answer": "matches",
+    "derivation_detail": "identity=strict_boundary worked=0/10 ratio=0.000"
+  },
+  "C2": {
+    "question_id": "C2",
+    "question_type": "plan_reality",
+    "question_topic": "social",
+    "answer": "25_to_50_pct",
+    "derivation_detail": "realized=2/6 ratio=0.333"
+  },
+  "C3": {
+    "question_id": "C3",
+    "question_type": "plan_reality",
+    "question_topic": "sleep",
+    "answer": "within_20min_more_than_50pct",
+    "derivation_detail": "late=0 early=5 on_time=9 / 14"
+  },
+  "D1": {
+    "question_id": "D1",
+    "question_type": "trend",
+    "question_topic": "social",
+    "answer": "decreased",
+    "derivation_detail": "early=0.429/d late=0.250/d delta=-0.179"
+  },
+  "D2": {
+    "question_id": "D2",
+    "question_type": "trend",
+    "question_topic": "diet",
+    "answer": "within_1",
+    "derivation_detail": "profile_meals=2.5 profile_hc=2.2 actual_meals=2.60 actual_hc=2.17 delta=0.133"
+  },
+  "E1": {
+    "question_id": "E1",
+    "question_type": "causal",
+    "question_topic": "sleep",
+    "answer": "no_late_nights",
+    "derivation_detail": "late_nights=0"
+  },
+  "E2": {
+    "question_id": "E2",
+    "question_type": "causal",
+    "question_topic": "exercise",
+    "answer": "no_fewer_than_30",
+    "derivation_detail": "skip_days=14 work_caused=3 ratio=0.214"
+  },
+  "F1": {
+    "question_id": "F1",
+    "question_type": "missing_data",
+    "question_topic": "social",
+    "answer": "4_to_6",
+    "derivation_detail": "social_days=8 unplanned=5"
+  },
+  "F2": {
+    "question_id": "F2",
+    "question_type": "missing_data",
+    "question_topic": "exercise",
+    "answer": "both_occurred",
+    "derivation_detail": "inactive=20 missing=3"
+  },
+  "F3": {
+    "question_id": "F3",
+    "question_type": "missing_data",
+    "question_topic": "work",
+    "answer": "both_occurred",
+    "derivation_detail": "no_record_days=2 truly_off=1 unclear=1"
+  },
+  "G1": {
+    "question_id": "G1",
+    "question_type": "annotation",
+    "question_topic": "exercise",
+    "answer": "deliberate_exercise_70plus",
+    "derivation_detail": "intentional=9/10 ratio=0.900"
+  },
+  "G2": {
+    "question_id": "G2",
+    "question_type": "annotation",
+    "question_topic": "social",
+    "answer": "voluntary_70plus",
+    "derivation_detail": "voluntary=8/8 ratio=1.000"
+  },
+  "Ctrl1": {
+    "question_id": "Ctrl1",
+    "question_type": "control",
+    "question_topic": "diet",
+    "answer": "2_to_3_days",
+    "derivation_detail": "outside_days=2/7"
+  },
+  "Ctrl2": {
+    "question_id": "Ctrl2",
+    "question_type": "control",
+    "question_topic": "sleep",
+    "answer": "0_nights",
+    "derivation_detail": "short_nights=0/7"
+  }
+}

@@ -1,0 +1,58 @@
+# Model registry (single source of truth)
+#
+# `paper_alias` is what the paper writes verbatim.
+# `api_model_id` is the exact string sent to the API endpoint.
+# Cache keys depend on `api_model_id`, NOT `paper_alias`.
+
+models:
+
+  gpt-5.4:
+    paper_alias: "GPT-5.4"
+    provider: openai
+    api_model_id: "gpt-5.4"
+    api_endpoint: "https://api.openai.com/v1/chat/completions"
+    default_params:
+      reasoning_effort: "xhigh"
+    used_for:
+      - extraction
+      - llm_direct
+      - schema_aware
+      - struct_llm_aux
+      - few_shot_aux
+
+  gemini-3.1-pro:
+    paper_alias: "Gemini 3.1 Pro"
+    provider: google
+    api_model_id: "gemini-3.1-pro-preview"
+    api_endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
+    default_params:
+      temperature: 0.0
+      thinking_level: "high"
+    used_for:
+      - extraction
+      - llm_direct
+      - schema_aware
+      - struct_llm_aux
+      - batch_submission
+
+  deepseek-v3.2:
+    paper_alias: "DeepSeek V3.2"
+    provider: openrouter
+    api_model_id: "deepseek-v3.2"
+    api_endpoint: "https://openrouter.ai/api/v1/chat/completions"
+    default_params:
+      temperature: 0.0
+    used_for:
+      - llm_direct
+      - schema_aware
+
+  qwen3-235b:
+    paper_alias: "Qwen3 235B"
+    provider: openrouter
+    api_model_id: "qwen3-235b-a22b-2507"
+    api_endpoint: "https://openrouter.ai/api/v1/chat/completions"
+    default_params:
+      temperature: 0.0
+    used_for:
+      - llm_direct
+      - schema_aware

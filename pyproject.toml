@@ -1,0 +1,84 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survey2agent"
+version = "0.1.0"
+description = "Diagnostic testbed for selective QA over multi-source personal memory (NeurIPS 2026 E&D submission)."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Anonymous (NeurIPS 2026 submission)" },
+]
+keywords = [
+    "benchmark",
+    "selective-qa",
+    "multi-source-fusion",
+    "personal-memory",
+    "llm-evaluation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.65",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+api = [
+    "openai>=1.40",
+    "google-genai>=1.0",
+    "httpx>=0.27",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.4",
+    "mypy>=1.8",
+    "jsonschema>=4.0",
+]
+hf = [
+    "datasets>=2.18",
+    "huggingface-hub>=0.22",
+]
+
+[project.scripts]
+survey2agent = "survey2agent.cli:main"
+
+[project.urls]
+Repository = "https://github.com/anon-neuripsed26/multisource-memory-benchmark"
+Issues = "https://github.com/anon-neuripsed26/multisource-memory-benchmark"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+survey2agent = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"
+markers = [
+    "slow: marks tests as slow (deselect with -m 'not slow')",
+    "needs_data: requires the full reproducibility data bundle (auto-skipped when data/ is empty; run 'make fetch')",
+    "requires_api: requires LLM API access (skipped by default in CI)",
+]

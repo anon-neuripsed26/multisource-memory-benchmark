@@ -1,0 +1,21 @@
+{
+  "_comment": "Toy event table for examples/05 only. NOT shared with examples/02. Each entry is a planned-or-actual social/exercise event over 14 days. The 'planned' field is what calendar_hint sees; the 'happened' field is the latent ground truth (what would land in objective_log).",
+  "fortnight_days": 14,
+  "events": [
+    {"day_index": 1,  "slot": "evening",   "activity_type": "dinner_with_friends", "planned": true,  "happened": true},
+    {"day_index": 2,  "slot": "morning",   "activity_type": "yoga_class",          "planned": true,  "happened": true},
+    {"day_index": 3,  "slot": "evening",   "activity_type": "book_club",           "planned": true,  "happened": false},
+    {"day_index": 4,  "slot": "afternoon", "activity_type": "coffee_meetup",       "planned": true,  "happened": true},
+    {"day_index": 5,  "slot": "morning",   "activity_type": "running_group",       "planned": true,  "happened": false},
+    {"day_index": 6,  "slot": "evening",   "activity_type": "dinner_with_friends", "planned": true,  "happened": true},
+    {"day_index": 7,  "slot": "evening",   "activity_type": "concert",             "planned": true,  "happened": true},
+    {"day_index": 8,  "slot": "morning",   "activity_type": "yoga_class",          "planned": true,  "happened": true},
+    {"day_index": 9,  "slot": "afternoon", "activity_type": "museum_trip",         "planned": true,  "happened": false},
+    {"day_index": 10, "slot": "evening",   "activity_type": "board_games",         "planned": true,  "happened": true},
+    {"day_index": 11, "slot": "morning",   "activity_type": "running_group",       "planned": true,  "happened": true},
+    {"day_index": 12, "slot": "evening",   "activity_type": "dinner_with_friends", "planned": true,  "happened": true},
+    {"day_index": 13, "slot": "afternoon", "activity_type": "coffee_meetup",       "planned": true,  "happened": false},
+    {"day_index": 14, "slot": "evening",   "activity_type": "movie_night",         "planned": true,  "happened": true}
+  ],
+  "_bias_note": "10/14 events actually happened (happened=true). 4/14 were planned-but-skipped (book_club, running_group day 5, museum_trip, coffee_meetup day 13). Distinct planned types = 9; distinct happened types = 7 (book_club, museum_trip removed; the other two skipped types still appear on other days). This +1 bias direction (planned > happened) is what calendar_hint should expose."
+}

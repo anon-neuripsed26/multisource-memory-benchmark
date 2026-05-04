@@ -1,0 +1,284 @@
+# Question spec — single source of truth.
+#
+# This YAML is the machine-readable, in-repo authoritative spec consumed by
+#   src/survey2agent/extraction/question_spec.py (thin loader).
+# The narrative companion (rationale, design history, per-question prose) is
+# distributed alongside the paper supplement and is not required at runtime.
+#
+# 18 questions × 8 reasoning types:
+#   A-Arbitration (3): A1, A2, A3
+#   B-Identity     (2): B2, B3
+#   C-Plan-Reality (2): C2, C3
+#   D-Trend        (2): D1, D2
+#   E-Factor       (2): E1, E2
+#   F-Missing-Data (3): F1, F2, F3
+#   G-Annotation   (2): G1, G2
+#   Ctrl-Control   (2): Ctrl1, Ctrl2
+#
+# Per-question fields:
+#   question_text     : NL prompt used by extractors
+#   type              : reasoning family
+#   topic             : domain (sleep, work, diet, social, exercise)
+#   answer_space      : full label list (substantive + edge)
+#   answer_space_type : "ordinal" | "nominal"
+#   ordered_labels    : substantive labels in the rank order used by
+#                       ordinal_encoding and BCF/ABF bias shifts; this is
+#                       not always the human-readable numeric display order
+#                       for derived-count questions (omit for nominal)
+#   edge_options      : labels treated as factual edge cases (not abstain)
+#   time_window       : reference window in days
+#
+# The loader derives ordinal_encoding = {label: i+1 for i, label in
+# enumerate(ordered_labels)} when ordered_labels is present, else None.
+# Table B-2 in the paper prints answer spaces for human readability; the
+# bias-shift order used by BCF/ABF is this YAML field.
+
+version: "v5.5"
+total_questions: 18
+reasoning_types: [A, B, C, D, E, F, G, Ctrl]
+
+source_names:
+  - profile_ltm
+  - planner
+  - daily_self_report
+  - objective_log
+  - device_log
+
+# ── QBD-2: Bias direction matrix b_{s, topic(Q)} ─────────────────────────────
+# Sign convention: +1 = positive/optimistic shift, -1 = negative/underreport,
+# 0 = unbiased (or only stale, with no directional shift).
+#
+# Per-source defaults are scalars unless the bias is topic-dependent, in which
+# case the value is a topic→int mapping. The loader resolves the topic-
+# dependent case using QUESTIONS[qid]["topic"] (see question_spec.get_bias).
+#
+#   profile_ltm:        coarse prior, no directional shift          → 0
+#   planner:            optimistic across all topics                → +1
+#   daily_self_report:  topic-dependent (QBD-2)                     → see below
+#   objective_log:      small ± noise, fixed/unlearned              → 0
+#   device_log:         precise but ~50% dropout, no shift          → 0
+bias_defaults:
+  profile_ltm: 0
+  planner: 1
+  daily_self_report:
+    work: -1       # underreports work hours
+    diet: 1        # overreports healthy eating
+    social: -1     # underreports casual social
+    sleep: 1       # overreports sleep quality
+    exercise: 1    # overreports exercise effort
+  objective_log: 0
+  device_log: 0
+
+# Per-question bias overrides for cases where the topic-level prior would
+# semantically *invert* the intended source behavior. Resolution order in
+# `get_bias(qid)` is: bias_overrides[qid][source] > bias_defaults[source]
+# (resolved by topic if dict). Partial overrides are allowed; unspecified
+# sources fall back to the topic-level default.
+#
+# Justifications (each entry must be defensible by question semantics, not
+# by empirical fit to test data):
+#   A2 daily_self_report=+1: A2's ordered_labels reverse the numerical scale
+#     (8_or_more=rank 1, 0_to_3=rank 3). The topic prior `work: -1` would
+#     shift toward "8_or_more" (more overtime), the opposite of "underreports
+#     work hours". +1 restores the intended underreporting direction.
+#   C2 daily_self_report=+1: plan-realization question. Self-report in
+#     retrospect emphasizes plans actually completed, shifting toward higher
+#     realization rather than the topic prior's `social: -1`.
+#   F1 planner=-1: F1 asks about *unplanned* social activity. By construction
+#     planners cannot record unplanned events, so they always shift toward the
+#     "fewer / no_plans" end regardless of the topic-level optimism prior.
+#   F1 daily_self_report=+1: self-report retrospectively recalls events that
+#     actually happened, including unplanned ones, so it reveals more activity
+#     than the planner anticipated. The topic prior `social: -1` reverses this.
+#   G2 daily_self_report=+1: G2 asks voluntary vs obligatory social meetings.
+#     Self-report idealization reframes obligatory meetings as voluntary,
+#     shifting toward "voluntary_70plus" (rank 3). Topic prior `social: -1`
+#     would predict the opposite.
+bias_overrides:
+  A2:
+    daily_self_report: 1
+  C2:
+    daily_self_report: 1
+  F1:
+    planner: -1
+    daily_self_report: 1
+  G2:
+    daily_self_report: 1
+
+questions:
+  A1:
+    question_text: "In the past 30 days, how many nights did this person sleep 7 hours or more?"
+    type: arbitration
+    topic: sleep
+    answer_space_type: ordinal
+    answer_space: ["fewer_than_10", "10_to_19", "20_or_more"]
+    ordered_labels: ["fewer_than_10", "10_to_19", "20_or_more"]
+    edge_options: []
+    time_window: 30
+
+  A2:
+    question_text: "In the past 30 days, on how many days did this person work more than 9 hours?"
+    type: arbitration
+    topic: work
+    answer_space_type: ordinal
+    answer_space: ["0_to_3", "4_to_7", "8_or_more"]
+    ordered_labels: ["8_or_more", "4_to_7", "0_to_3"]
+    edge_options: []
+    time_window: 30
+
+  A3:
+    question_text: "In the past 30 days, on what share of meal occasions did this person eat home-cooked food?"
+    type: arbitration
+    topic: diet
+    answer_space_type: ordinal
+    answer_space: ["less_than_40", "40_to_69", "70_or_more"]
+    ordered_labels: ["less_than_40", "40_to_69", "70_or_more"]
+    edge_options: []
+    time_window: 30
+
+  B2:
+    question_text: "This person's profile describes exercising a certain number of days per week. In the past 30 days, how did their actual exercise frequency compare to that description?"
+    type: identity
+    topic: exercise
+    answer_space_type: ordinal
+    answer_space: ["more_than_1_below", "within_1_day", "more_than_1_above", "no_frequency_described"]
+    ordered_labels: ["more_than_1_below", "within_1_day", "more_than_1_above"]
+    edge_options: ["no_frequency_described"]
+    time_window: 30
+
+  B3:
+    question_text: "This person's profile describes a specific approach to weekend work. In the past 30 days, did their actual weekend work pattern match that description?"
+    type: identity
+    topic: work
+    answer_space_type: nominal
+    answer_space: ["matches", "does_not_match", "no_approach_described"]
+    edge_options: ["no_approach_described"]
+    time_window: 30
+
+  C2:
+    question_text: "In the past 14 days, on days when this person planned a social activity, what share of those plans were actually realized?"
+    type: plan_reality
+    topic: social
+    answer_space_type: ordinal
+    answer_space: ["below_25_pct", "25_to_50_pct", "above_50_pct", "no_plans"]
+    ordered_labels: ["below_25_pct", "25_to_50_pct", "above_50_pct"]
+    edge_options: ["no_plans"]
+    time_window: 14
+
+  C3:
+    question_text: "In the past 14 days, on days when this person set a target bedtime, did they go to bed within 20 minutes of that target?"
+    type: plan_reality
+    topic: sleep
+    answer_space_type: nominal
+    answer_space: ["within_20min_more_than_50pct", "later_more_than_50pct", "earlier_more_than_50pct", "no_targets"]
+    edge_options: ["no_targets"]
+    time_window: 14
+
+  D1:
+    question_text: "Comparing the first 14 days to the last 16 days of the 30-day window: did this person's number of social activities per day increase, decrease, or stay the same?"
+    type: trend
+    topic: social
+    answer_space_type: ordinal
+    answer_space: ["decreased", "stayed_same", "increased"]
+    ordered_labels: ["decreased", "stayed_same", "increased"]
+    edge_options: []
+    time_window: 30
+
+  D2:
+    question_text: "In the past 30 days, did this person's daily home-cooked meal count and total meal count differ from the averages described in their profile by more than 1 meal/day?"
+    type: trend
+    topic: diet
+    answer_space_type: ordinal
+    answer_space: ["within_1", "differs_more_than_1", "no_baseline"]
+    ordered_labels: ["within_1", "differs_more_than_1"]
+    edge_options: ["no_baseline"]
+    time_window: 30
+
+  E1:
+    question_text: "In the past 30 days, on nights when this person went to bed after midnight, which co-occurring factor appeared on more than 50% of those nights?"
+    type: causal
+    topic: sleep
+    answer_space_type: nominal
+    answer_space: ["work_activity", "social_activity", "no_single_factor", "no_late_nights"]
+    edge_options: ["no_late_nights"]
+    time_window: 30
+
+  E2:
+    question_text: "In the past 30 days, on days when this person had planned to exercise but did not, did they work more than 8.5 hours that same day?"
+    type: causal
+    topic: exercise
+    answer_space_type: ordinal
+    answer_space: ["no_fewer_than_30", "between_30_60", "yes_more_than_60"]
+    ordered_labels: ["no_fewer_than_30", "between_30_60", "yes_more_than_60"]
+    edge_options: []
+    time_window: 30
+
+  F1:
+    question_text: "In the past 30 days, on how many days did this person attend social activities when the planner showed no social intent?"
+    type: missing_data
+    topic: social
+    answer_space_type: ordinal
+    answer_space: ["0_to_3", "4_to_6", "7_or_more", "no_social_activities"]
+    ordered_labels: ["0_to_3", "4_to_6", "7_or_more"]
+    edge_options: ["no_social_activities"]
+    time_window: 30
+
+  F2:
+    question_text: "In the past 30 days, on days when the fitness tracker recorded no workout, did other sources (self-report or payment records) indicate that this person exercised?"
+    type: missing_data
+    topic: exercise
+    answer_space_type: ordinal
+    answer_space: ["inactive_confirmed", "both_occurred", "yes_tracker_missing"]
+    ordered_labels: ["inactive_confirmed", "both_occurred", "yes_tracker_missing"]
+    edge_options: []
+    time_window: 30
+
+  F3:
+    question_text: "In the past 30 days, on days when the work timesheet had no entry, did other sources (self-report, planner, or computer activity log) indicate that this person worked?"
+    type: missing_data
+    topic: work
+    answer_space_type: ordinal
+    answer_space: ["truly_off", "both_occurred", "yes_worked_despite_no_entry"]
+    ordered_labels: ["truly_off", "both_occurred", "yes_worked_despite_no_entry"]
+    edge_options: []
+    time_window: 30
+
+  G1:
+    question_text: "In the past 30 days, on days when this person was physically active, was the activity deliberate exercise or incidental movement (such as walking to work or household chores)?"
+    type: annotation
+    topic: exercise
+    answer_space_type: ordinal
+    answer_space: ["incidental_movement_70plus", "mix", "deliberate_exercise_70plus", "no_activity"]
+    ordered_labels: ["incidental_movement_70plus", "mix", "deliberate_exercise_70plus"]
+    edge_options: ["no_activity"]
+    time_window: 30
+
+  G2:
+    question_text: "In the past 30 days, when this person attended social activities, were those activities voluntary (by choice) or obligatory (e.g., work events, family commitments)?"
+    type: annotation
+    topic: social
+    answer_space_type: ordinal
+    answer_space: ["obligatory_70plus", "mix", "voluntary_70plus", "no_meetings"]
+    ordered_labels: ["obligatory_70plus", "mix", "voluntary_70plus"]
+    edge_options: ["no_meetings"]
+    time_window: 30
+
+  Ctrl1:
+    question_text: "In the past week, how many days did this person eat food prepared outside the home?"
+    type: control
+    topic: diet
+    answer_space_type: ordinal
+    answer_space: ["0_to_1_days", "2_to_3_days", "4_or_more"]
+    ordered_labels: ["4_or_more", "2_to_3_days", "0_to_1_days"]
+    edge_options: []
+    time_window: 7
+
+  Ctrl2:
+    question_text: "In the past week, how many nights did this person sleep less than 6 hours?"
+    type: control
+    topic: sleep
+    answer_space_type: ordinal
+    answer_space: ["0_nights", "1_to_2", "3_or_more"]
+    ordered_labels: ["3_or_more", "1_to_2", "0_nights"]
+    edge_options: []
+    time_window: 7

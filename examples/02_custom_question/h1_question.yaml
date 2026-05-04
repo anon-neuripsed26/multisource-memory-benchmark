@@ -1,0 +1,24 @@
+# Example 19th question "H1" — distinct social-activity types in the last 14 days.
+#
+# This file is a stand-alone question spec that the runnable example in
+# test_custom_question.py validates against schemas/question_definition.schema.json.
+# It is NOT merged into the main configs/questions.yaml — the 18-question benchmark
+# is preserved. Community authors who want to promote H1 to the real benchmark
+# should copy this block into configs/questions.yaml and follow EXTENDING.md §2.
+H1:
+  question_text: "How many distinct types of social activities did the persona engage in during the last 14 days?"
+  type: D                        # Temporal / count family
+  topic: social
+  answer_space:
+    - "0_to_1"
+    - "2_to_3"
+    - "4_or_more"
+    - "uncertain"
+  answer_space_type: ordinal
+  ordered_labels:
+    - "0_to_1"
+    - "2_to_3"
+    - "4_or_more"
+  edge_options:
+    - "uncertain"
+  time_window: 14

@@ -1,0 +1,1723 @@
+{
+  "schema_version": "v2.source_projection",
+  "source_type": "daily_self_report",
+  "persona_id": "bench_shift_121_avery_ellis",
+  "persona_name": "Avery Ellis",
+  "records": [
+    {
+      "date": "2026-01-03",
+      "day_index": 1,
+      "sleep": {
+        "bedtime": "22:41",
+        "wake_time": "06:15",
+        "duration_h": 7.8,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 1,
+        "home_cooked": 1,
+        "fast_food": 1,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "weekend"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "day_index": 2,
+      "sleep": {
+        "bedtime": "23:14",
+        "wake_time": "06:34",
+        "duration_h": 7.3,
+        "quality": 4,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0.7,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "art gallery opening",
+          "book club"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "documentaries"
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "day_index": 3,
+      "sleep": {
+        "bedtime": "22:05",
+        "wake_time": "06:47",
+        "duration_h": 8.2,
+        "quality": 4,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.5,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [
+          "unexpected bug",
+          "tight deadline"
+        ],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "called a friend",
+          "quiet dinner at home"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "day_index": 4,
+      "sleep": {
+        "bedtime": "22:56",
+        "wake_time": "06:30",
+        "duration_h": 7.5,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 9.1,
+        "overtime": true,
+        "worked_on_weekend": false,
+        "stress_events": [
+          "last-minute changes",
+          "unexpected bug"
+        ],
+        "work_life_balance": 2,
+        "afterhours_reason": "self_project"
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 3,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 3,
+        "relaxation_activity": "stretching"
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "day_index": 5,
+      "sleep": {
+        "bedtime": "21:51",
+        "wake_time": "06:28",
+        "duration_h": 8.9,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 2,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 7.8,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "day_index": 6,
+      "sleep": {
+        "bedtime": "21:52",
+        "wake_time": "05:50",
+        "duration_h": 8.3,
+        "quality": 4,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 65
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 6.9,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "day_index": 7,
+      "sleep": {
+        "bedtime": "22:16",
+        "wake_time": "05:42",
+        "duration_h": 8.0,
+        "quality": 4,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 1,
+        "home_cooked": 1,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "other",
+            "meat_included": true,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 7.9,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": "team_need"
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 3,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "day_index": 8,
+      "sleep": {
+        "bedtime": "22:43",
+        "wake_time": "06:19",
+        "duration_h": 7.0,
+        "quality": 3,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 72
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": true,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "live music night"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 3,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "day_index": 9,
+      "sleep": {
+        "bedtime": "22:51",
+        "wake_time": "05:40",
+        "duration_h": 7.7,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "coffee with a colleague"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "day_index": 10,
+      "sleep": {
+        "bedtime": "22:29",
+        "wake_time": "06:07",
+        "duration_h": 7.4,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 6.2,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "called a friend"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "day_index": 11,
+      "sleep": {
+        "bedtime": "22:20",
+        "wake_time": "05:51",
+        "duration_h": 8.4,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 1,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": true,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 9.3,
+        "overtime": true,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": "team_need"
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 4,
+        "routine_satisfaction": 3,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "day_index": 12,
+      "sleep": {
+        "bedtime": "22:19",
+        "wake_time": "06:38",
+        "duration_h": 8.5,
+        "quality": 4,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 68
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 1,
+        "fast_food": 1,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.1,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "live music night"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "day_index": 13,
+      "sleep": {
+        "bedtime": "21:51",
+        "wake_time": "06:32",
+        "duration_h": 8.8,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 74
+      },
+      "diet": {
+        "meals": 4,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.5,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 3,
+        "stressed": false,
+        "energy": 5,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "podcasts"
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "day_index": 14,
+      "sleep": {
+        "bedtime": "21:29",
+        "wake_time": "06:11",
+        "duration_h": 8.3,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 2,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 6.1,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "day_index": 15,
+      "sleep": {
+        "bedtime": "21:53",
+        "wake_time": "06:43",
+        "duration_h": 9.1,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 75
+      },
+      "diet": {
+        "meals": 2,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0.1,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "coffee with a colleague"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "stretching"
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "day_index": 16,
+      "sleep": {
+        "bedtime": "21:50",
+        "wake_time": "06:41",
+        "duration_h": 8.8,
+        "quality": 4,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 1,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "weekend"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "day_index": 17,
+      "sleep": {
+        "bedtime": "22:05",
+        "wake_time": "06:57",
+        "duration_h": 8.8,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "walking",
+        "duration_min": 18
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 7.4,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [
+          "overloaded inbox"
+        ],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "stretching"
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "day_index": 18,
+      "sleep": {
+        "bedtime": "21:53",
+        "wake_time": "06:22",
+        "duration_h": 9.1,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 4,
+        "home_cooked": 4,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": true,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.7,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "day_index": 19,
+      "sleep": {
+        "bedtime": "21:21",
+        "wake_time": "06:15",
+        "duration_h": 8.1,
+        "quality": 4,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 77
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 6.7,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "watching TV"
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "day_index": 20,
+      "sleep": {
+        "bedtime": "21:25",
+        "wake_time": "05:36",
+        "duration_h": 9.4,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 4,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 5.0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "day_index": 21,
+      "sleep": {
+        "bedtime": "22:02",
+        "wake_time": "06:21",
+        "duration_h": 9.1,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 4.6,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "day_index": 22,
+      "sleep": {
+        "bedtime": "22:02",
+        "wake_time": "06:48",
+        "duration_h": 8.5,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 82
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": true,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "weekend"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0.4,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "day_index": 23,
+      "sleep": {
+        "bedtime": "22:28",
+        "wake_time": "06:51",
+        "duration_h": 8.3,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 2,
+        "home_cooked": 1,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": true,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0.4,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "art gallery opening"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 3,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "day_index": 24,
+      "sleep": {
+        "bedtime": "22:14",
+        "wake_time": "06:12",
+        "duration_h": 8.5,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 97
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.3,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 5,
+        "stressed": false,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "day_index": 25,
+      "sleep": {
+        "bedtime": "21:21",
+        "wake_time": "06:49",
+        "duration_h": 8.8,
+        "quality": 4,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 15
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": true,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 5.6,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [
+          "last-minute changes",
+          "presentation prep"
+        ],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "art gallery opening"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 3,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "day_index": 26,
+      "sleep": {
+        "bedtime": "22:09",
+        "wake_time": "07:02",
+        "duration_h": 9.2,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 91
+      },
+      "diet": {
+        "meals": 1,
+        "home_cooked": 1,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "social"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "social"
+          }
+        ]
+      },
+      "work": {
+        "hours": 5.4,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "neighborhood walk"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 3,
+        "stressed": false,
+        "energy": 4,
+        "loneliness": 2,
+        "routine_satisfaction": 4,
+        "relaxation_activity": null
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "day_index": 27,
+      "sleep": {
+        "bedtime": "22:17",
+        "wake_time": "06:50",
+        "duration_h": 9.4,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "stretching",
+        "duration_min": 16
+      },
+      "diet": {
+        "meals": 4,
+        "home_cooked": 3,
+        "fast_food": 0,
+        "coffee_cups": 1,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "routine"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "routine"
+          }
+        ]
+      },
+      "work": {
+        "hours": 8.0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 3,
+        "stressed": true,
+        "energy": 4,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "music"
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "day_index": 28,
+      "sleep": {
+        "bedtime": "21:10",
+        "wake_time": "05:54",
+        "duration_h": 8.4,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": false
+      },
+      "diet": {
+        "meals": 4,
+        "home_cooked": 4,
+        "fast_food": 0,
+        "coffee_cups": 2,
+        "food_orders": [
+          {
+            "beneficiary": "other",
+            "meat_included": true,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "work_stress"
+          }
+        ]
+      },
+      "work": {
+        "hours": 7.9,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [
+          "unexpected bug"
+        ],
+        "work_life_balance": 4,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [
+          "grabbed coffee with someone"
+        ],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "reading"
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "day_index": 29,
+      "sleep": {
+        "bedtime": "22:20",
+        "wake_time": "07:09",
+        "duration_h": 8.9,
+        "quality": 5,
+        "screen_before_bed": true
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "yoga",
+        "duration_min": 95
+      },
+      "diet": {
+        "meals": 3,
+        "home_cooked": 3,
+        "fast_food": 1,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "shared",
+            "meat_included": true,
+            "context_tag": "weekend"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": true,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "music"
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "day_index": 30,
+      "sleep": {
+        "bedtime": "22:10",
+        "wake_time": "06:23",
+        "duration_h": 7.8,
+        "quality": 5,
+        "screen_before_bed": false
+      },
+      "exercise": {
+        "did_exercise": true,
+        "type": "stretching",
+        "duration_min": 22
+      },
+      "diet": {
+        "meals": 2,
+        "home_cooked": 2,
+        "fast_food": 0,
+        "coffee_cups": 0,
+        "food_orders": [
+          {
+            "beneficiary": "self",
+            "meat_included": false,
+            "context_tag": "weekend"
+          },
+          {
+            "beneficiary": "other",
+            "meat_included": false,
+            "context_tag": "weekend"
+          }
+        ]
+      },
+      "work": {
+        "hours": 0,
+        "overtime": false,
+        "worked_on_weekend": false,
+        "stress_events": [],
+        "work_life_balance": 3,
+        "afterhours_reason": null
+      },
+      "social": {
+        "activities": [],
+        "supporting_other": false
+      },
+      "mood": {
+        "overall": 4,
+        "stressed": false,
+        "energy": 3,
+        "loneliness": 4,
+        "routine_satisfaction": 4,
+        "relaxation_activity": "stretching"
+      }
+    }
+  ]
+}

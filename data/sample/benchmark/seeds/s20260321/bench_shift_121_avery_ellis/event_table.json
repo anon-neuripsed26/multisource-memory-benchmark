@@ -1,0 +1,2139 @@
+[
+  {
+    "date": "2026-01-03",
+    "day_of_week": "saturday",
+    "day_index": 1,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:29",
+      "wake_time": "06:11",
+      "duration_h": 7.7,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 1,
+      "fast_food": 1,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "weekend"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-04",
+    "day_of_week": "sunday",
+    "day_index": 2,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "23:01",
+      "wake_time": "06:31",
+      "duration_h": 7.5,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "art gallery opening"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": true,
+      "energy": 4,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "documentaries"
+    },
+    "context_tags": [
+      "social",
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-05",
+    "day_of_week": "monday",
+    "day_index": 3,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:22",
+      "wake_time": "06:28",
+      "duration_h": 8.1,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.1,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [
+        "unexpected bug",
+        "tight deadline"
+      ],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": true,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-06",
+    "day_of_week": "tuesday",
+    "day_index": 4,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:29",
+      "wake_time": "06:05",
+      "duration_h": 7.6,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 9.5,
+      "overtime": true,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [
+        "last-minute changes",
+        "unexpected bug"
+      ],
+      "work_life_balance": 2,
+      "afterhours_reason": "team_need"
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 3,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-07",
+    "day_of_week": "wednesday",
+    "day_index": 5,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:15",
+      "wake_time": "06:09",
+      "duration_h": 7.9,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.8,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-08",
+    "day_of_week": "thursday",
+    "day_index": 6,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:10",
+      "wake_time": "06:10",
+      "duration_h": 8.0,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 59,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 2,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.5,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "day_of_week": "friday",
+    "day_index": 7,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:45",
+      "wake_time": "05:57",
+      "duration_h": 7.2,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": true,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 9.5,
+      "overtime": true,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": "team_need"
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 5,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 3,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-10",
+    "day_of_week": "saturday",
+    "day_index": 8,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:58",
+      "wake_time": "06:22",
+      "duration_h": 7.4,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 69,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 2,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "live music night",
+        "art gallery opening"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 4,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "reading"
+    },
+    "context_tags": [
+      "social",
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-11",
+    "day_of_week": "sunday",
+    "day_index": 9,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:47",
+      "wake_time": "06:05",
+      "duration_h": 7.3,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 2,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "coffee with a colleague",
+        "live music night"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "social",
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-12",
+    "day_of_week": "monday",
+    "day_index": 10,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:07",
+      "wake_time": "06:01",
+      "duration_h": 7.9,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.6,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "reading"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "day_of_week": "tuesday",
+    "day_index": 11,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:24",
+      "wake_time": "06:00",
+      "duration_h": 7.6,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 2,
+      "fast_food": 1,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 9.4,
+      "overtime": true,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": "team_need"
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 3,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "day_of_week": "wednesday",
+    "day_index": 12,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:40",
+      "wake_time": "06:22",
+      "duration_h": 7.7,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 67,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 0,
+      "fast_food": 2,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.7,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "live music night"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "social"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "day_of_week": "thursday",
+    "day_index": 13,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:14",
+      "wake_time": "06:08",
+      "duration_h": 7.9,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 58,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 2,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.6,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "podcasts"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-16",
+    "day_of_week": "friday",
+    "day_index": 14,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:44",
+      "wake_time": "06:20",
+      "duration_h": 8.6,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.4,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "reading"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-17",
+    "day_of_week": "saturday",
+    "day_index": 15,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:19",
+      "wake_time": "07:07",
+      "duration_h": 8.8,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 73,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "coffee with a colleague"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 3,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "social",
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "day_of_week": "sunday",
+    "day_index": 16,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:58",
+      "wake_time": "06:46",
+      "duration_h": 8.8,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 1,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": true,
+          "context_tag": "weekend"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "day_of_week": "monday",
+    "day_index": 17,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:53",
+      "wake_time": "06:53",
+      "duration_h": 9.0,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 6.9,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [
+        "overloaded inbox"
+      ],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "day_of_week": "tuesday",
+    "day_index": 18,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:39",
+      "wake_time": "06:27",
+      "duration_h": 8.8,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": true,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.1,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 5,
+      "stressed": false,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "day_of_week": "wednesday",
+    "day_index": 19,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:50",
+      "wake_time": "06:32",
+      "duration_h": 8.7,
+      "quality": 4,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 78,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 1,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 6.9,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "watching TV"
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-22",
+    "day_of_week": "thursday",
+    "day_index": 20,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:36",
+      "wake_time": "05:54",
+      "duration_h": 8.3,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 4,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.3,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 5,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "day_of_week": "friday",
+    "day_index": 21,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:42",
+      "wake_time": "06:24",
+      "duration_h": 8.7,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 1,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": true,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 6.6,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 5,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-24",
+    "day_of_week": "saturday",
+    "day_index": 22,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:22",
+      "wake_time": "06:40",
+      "duration_h": 8.3,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 68,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": true,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "weekend"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "day_of_week": "sunday",
+    "day_index": 23,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:07",
+      "wake_time": "06:55",
+      "duration_h": 8.8,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 1,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "art gallery opening"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": "reading"
+    },
+    "context_tags": [
+      "social",
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "day_of_week": "monday",
+    "day_index": 24,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:48",
+      "wake_time": "06:36",
+      "duration_h": 8.8,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 84,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.9,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "day_of_week": "tuesday",
+    "day_index": 25,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:36",
+      "wake_time": "06:30",
+      "duration_h": 8.9,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": true,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 6.8,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [
+        "last-minute changes",
+        "presentation prep"
+      ],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "art gallery opening"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "social",
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "day_of_week": "wednesday",
+    "day_index": 26,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:58",
+      "wake_time": "07:04",
+      "duration_h": 9.1,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 68,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 2,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "social"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "social"
+        }
+      ]
+    },
+    "work": {
+      "hours": 7.3,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [
+        "neighborhood walk"
+      ],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": false,
+      "energy": 4,
+      "loneliness": 2,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "social"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "day_of_week": "thursday",
+    "day_index": 27,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:59",
+      "wake_time": "06:41",
+      "duration_h": 8.7,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 3,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "routine"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "routine"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.0,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 4,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "routine"
+    ]
+  },
+  {
+    "date": "2026-01-30",
+    "day_of_week": "friday",
+    "day_index": 28,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "21:31",
+      "wake_time": "05:37",
+      "duration_h": 8.1,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": true,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": true,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 4,
+      "home_cooked": 4,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": true,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "self",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "work_stress"
+        }
+      ]
+    },
+    "work": {
+      "hours": 8.2,
+      "overtime": false,
+      "is_weekend": false,
+      "worked_on_weekend": false,
+      "stress_events": [
+        "unexpected bug"
+      ],
+      "work_life_balance": 4,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "work_stress"
+    ]
+  },
+  {
+    "date": "2026-01-31",
+    "day_of_week": "saturday",
+    "day_index": 29,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:15",
+      "wake_time": "06:57",
+      "duration_h": 8.7,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": true,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": true,
+      "exercise_type": "yoga",
+      "duration_min": 74,
+      "intentional": true
+    },
+    "diet": {
+      "meals": 3,
+      "home_cooked": 2,
+      "fast_food": 1,
+      "coffee_cups": 0,
+      "food_orders": [
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "shared",
+          "meat_included": true,
+          "context_tag": "weekend"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 3,
+      "stressed": true,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "weekend"
+    ]
+  },
+  {
+    "date": "2026-02-01",
+    "day_of_week": "sunday",
+    "day_index": 30,
+    "persona_id": "bench_shift_121_avery_ellis",
+    "sleep": {
+      "bedtime": "22:24",
+      "wake_time": "06:30",
+      "duration_h": 8.1,
+      "quality": 5,
+      "interruptions": 0,
+      "trouble_falling_asleep": false,
+      "screen_before_bed": false,
+      "short_night": false,
+      "weekend_late_bed": false,
+      "met_target_bedtime": false,
+      "target_bedtime_minutes": 1330
+    },
+    "exercise": {
+      "did_exercise": false,
+      "exercise_type": null,
+      "duration_min": null,
+      "intentional": false
+    },
+    "diet": {
+      "meals": 2,
+      "home_cooked": 1,
+      "fast_food": 0,
+      "coffee_cups": 1,
+      "food_orders": [
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "weekend"
+        },
+        {
+          "beneficiary": "other",
+          "meat_included": false,
+          "context_tag": "weekend"
+        }
+      ]
+    },
+    "work": {
+      "hours": 0.0,
+      "overtime": false,
+      "is_weekend": true,
+      "worked_on_weekend": false,
+      "stress_events": [],
+      "work_life_balance": 3,
+      "afterhours_reason": null
+    },
+    "social": {
+      "activities": [],
+      "supporting_other": false
+    },
+    "mood": {
+      "overall": 4,
+      "stressed": false,
+      "energy": 3,
+      "loneliness": 4,
+      "routine_satisfaction": 4,
+      "relaxation_activity": null
+    },
+    "context_tags": [
+      "weekend"
+    ]
+  }
+]

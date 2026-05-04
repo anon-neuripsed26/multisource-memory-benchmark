@@ -1,0 +1,17 @@
+# Pinned for reproducibility. Last updated: 2026-04-21.
+# For developer install: `pip install -e .[api,dev,hf]`
+numpy>=1.24,<3.0
+scipy>=1.11,<2.0
+pandas>=2.0,<3.0
+pyyaml>=6.0,<7.0
+tqdm>=4.65,<5.0
+scikit-learn>=1.3,<2.0
+
+# API clients (optional; required for re-running extraction or LLM baselines)
+openai>=1.40,<2.0
+google-genai>=1.0,<2.0
+httpx>=0.27,<1.0
+
+# Hugging Face dataset hosting (optional; required for `data/fetch_benchmark.py`)
+datasets>=2.18,<3.0
+huggingface-hub>=0.22,<1.0

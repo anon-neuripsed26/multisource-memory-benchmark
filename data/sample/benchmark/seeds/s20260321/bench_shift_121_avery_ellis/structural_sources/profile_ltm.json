@@ -1,0 +1,62 @@
+{
+  "schema_version": "v2.source_projection",
+  "source_type": "profile_ltm",
+  "persona_id": "bench_shift_121_avery_ellis",
+  "persona_name": "Avery Ellis",
+  "difficulty_type": "temporal_shift",
+  "anchor_window": {
+    "start_day_index": 1,
+    "end_day_index": 12,
+    "total_days": 30,
+    "staleness_days": 18
+  },
+  "facts": {
+    "identity": {
+      "name": "Avery Ellis",
+      "age": 26,
+      "occupation": "physical therapist",
+      "city": "Pittsburgh, PA",
+      "relationship": "single"
+    },
+    "traits": {
+      "dietary_restriction": "none",
+      "social_preference": "no preference",
+      "close_friends": 4,
+      "primary_exercise": "yoga",
+      "afterhours_work_style": "strict_boundary"
+    },
+    "routine_snapshot": {
+      "sleep": {
+        "bedtime": "22:32",
+        "duration_h": 7.7,
+        "quality_mean": 4.2
+      },
+      "exercise": {
+        "days_per_week": 1.8,
+        "type": "yoga",
+        "session_minutes": 65.0
+      },
+      "diet": {
+        "meals_per_day": 2.5,
+        "home_cooked_mean": 2.2,
+        "coffee_cups_mean": 1.2
+      },
+      "work": {
+        "hours_mean": 5.8,
+        "overtime_share": 0.25,
+        "work_life_balance_mean": 3.3
+      },
+      "social": {
+        "active_days_per_week": 2.3,
+        "activity_mode": "live music night"
+      },
+      "mood": {
+        "overall_mean": 3.9,
+        "energy_mean": 3.9,
+        "stressed_share": 0.42,
+        "loneliness_mean": 3.3,
+        "routine_satisfaction_mean": 3.8
+      }
+    }
+  }
+}

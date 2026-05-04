@@ -1,0 +1,515 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "arrayShape": "cr:arrayShape",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "containedIn": "cr:containedIn",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataBiases": "cr:dataBiases",
+    "dataCollection": "cr:dataCollection",
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isArray": "cr:isArray",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "personalSensitiveInformation": "cr:personalSensitiveInformation",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "sc:Dataset",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "release-archive-zip",
+      "name": "Checksum-verified release ZIP archive",
+      "description": "Compressed reviewer-friendly mirror containing the heavy data directories benchmark/, extracted_atoms/, and method_outputs/. The fetch script verifies this SHA256 checksum before extraction, then downloads the small top-level metadata files separately.",
+      "contentUrl": "https://huggingface.co/datasets/anon-neuripsed26/multisource-memory-benchmark/resolve/main/archives/multisource-memory-benchmark-data-v0.1.0.zip",
+      "encodingFormat": "application/zip",
+      "contentSize": "37692022",
+      "sha256": "7f1260b1ab6456f46935fa5de582be143a68e19ce6ae5266382b5ee85123a299"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "benchmark-seed-json-files",
+      "name": "benchmark/seeds persona and source JSON files",
+      "description": "Per-seed synthetic personas, latent event tables, source streams, split assignments, and deterministic labels.",
+      "containedIn": {
+        "@id": "release-archive-zip"
+      },
+      "encodingFormat": "application/json",
+      "includes": "benchmark/seeds/**/*.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "benchmark-nl-render-md-files",
+      "name": "benchmark/seeds natural-language memory renders",
+      "description": "Templated natural-language memory documents used by extraction, LLM-Direct, and Schema-Aware baselines.",
+      "containedIn": {
+        "@id": "release-archive-zip"
+      },
+      "encodingFormat": "text/markdown",
+      "includes": "benchmark/seeds/*/nl_renders/*.md"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "benchmark-result-json-files",
+      "name": "benchmark/results JSON files",
+      "description": "Aggregate result tables, confidence intervals, robustness summaries, and paper-reproduction caches.",
+      "containedIn": {
+        "@id": "release-archive-zip"
+      },
+      "encodingFormat": "application/json",
+      "includes": "benchmark/results/**/*.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "extracted-atom-json-files",
+      "name": "extracted_atoms GPT-5.4 test-split JSON files",
+      "description": "Canonical frozen GPT-5.4 extracted atoms for held-out test personas; train/calibration direct-readout atoms are deterministically reconstructed by the code. These cached outputs are redistributed for reproducibility subject to upstream provider terms, not relicensed as CC-BY-4.0.",
+      "containedIn": {
+        "@id": "release-archive-zip"
+      },
+      "encodingFormat": "application/json",
+      "includes": "extracted_atoms/**/*.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "method-output-json-files",
+      "name": "method_outputs frozen LLM and method JSON files",
+      "description": "Frozen direct, schema-aware, few-shot, structured-input, and cross-extractor method outputs used for API-free reproduction. These cached outputs are redistributed for reproducibility subject to upstream provider terms, not relicensed as CC-BY-4.0.",
+      "containedIn": {
+        "@id": "release-archive-zip"
+      },
+      "encodingFormat": "application/json",
+      "includes": "method_outputs/**/*.json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "benchmark_seed_file_records",
+      "name": "benchmark_seed_file_records",
+      "description": "One record per JSON file under benchmark/seeds. These files define the synthetic personas, latent 30-day event tables, source projections, split assignments, and ground-truth labels.",
+      "key": {
+        "@id": "benchmark_seed_file_records/relative_path"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_seed_file_records/relative_path",
+          "name": "relative_path",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-seed-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_seed_file_records/seed",
+          "name": "seed",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-seed-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/seeds/(s[0-9]{8})/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_seed_file_records/persona_id",
+          "name": "persona_id",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-seed-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/seeds/s[0-9]{8}/([^/]+)/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_seed_file_records/component",
+          "name": "component",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-seed-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/seeds/s[0-9]{8}/(?:[^/]+/)?(.+)$"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "benchmark_nl_render_file_records",
+      "name": "benchmark_nl_render_file_records",
+      "description": "One record per templated natural-language memory render under benchmark/seeds/<seed>/nl_renders/.",
+      "key": {
+        "@id": "benchmark_nl_render_file_records/relative_path"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_nl_render_file_records/relative_path",
+          "name": "relative_path",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-nl-render-md-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_nl_render_file_records/seed",
+          "name": "seed",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-nl-render-md-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/seeds/(s[0-9]{8})/nl_renders/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_nl_render_file_records/persona_id",
+          "name": "persona_id",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-nl-render-md-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/seeds/s[0-9]{8}/nl_renders/([^/]+)\\.md$"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "benchmark_result_file_records",
+      "name": "benchmark_result_file_records",
+      "description": "One record per cached aggregate JSON result under benchmark/results.",
+      "key": {
+        "@id": "benchmark_result_file_records/relative_path"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_result_file_records/relative_path",
+          "name": "relative_path",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-result-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_result_file_records/filename",
+          "name": "filename",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "benchmark-result-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "benchmark/results/(.+)$"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "extracted_atom_file_records",
+      "name": "extracted_atom_file_records",
+      "description": "One record per canonical GPT-5.4 extracted-atom JSON file for test-split personas.",
+      "key": {
+        "@id": "extracted_atom_file_records/relative_path"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "extracted_atom_file_records/relative_path",
+          "name": "relative_path",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "extracted-atom-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "extracted_atom_file_records/seed",
+          "name": "seed",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "extracted-atom-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "extracted_atoms/(s[0-9]{8})/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "extracted_atom_file_records/persona_id",
+          "name": "persona_id",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "extracted-atom-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "extracted_atoms/s[0-9]{8}/([^/]+)\\.json$"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "method_output_file_records",
+      "name": "method_output_file_records",
+      "description": "One record per frozen method-output JSON file, including LLM direct/schema/few-shot outputs, structured-input diagnostics, and Gemini cross-extractor artifacts.",
+      "key": {
+        "@id": "method_output_file_records/relative_path"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "method_output_file_records/relative_path",
+          "name": "relative_path",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "method-output-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "method_output_file_records/provider_or_group",
+          "name": "provider_or_group",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "method-output-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "method_outputs/([^/]+)/.*"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "method_output_file_records/seed",
+          "name": "seed",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "method-output-json-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "method_outputs/[^/]+/(s[0-9]{8})/.*"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+  "name": "multisource-memory-benchmark",
+  "description": "\n\t\n\t\t\n\t\tMulti-Source Memory Benchmark\n\t\n\n\nStatus — anonymous artefact for double-blind review (NeurIPS 2026 Evaluations & Datasets Track).\nAuthor identities, organisations, and funders are intentionally withheld until the review period concludes.\n\nA diagnostic testbed for selective question-answering (ANSWER / SKIP) over conflicting multi-source personal memory.\nEach persona has five evidence streams projected from a single latent event table with known, controlled per-source distortions (bias… See the full description on the dataset page: https://huggingface.co/datasets/anon-neuripsed26/multisource-memory-benchmark.",
+  "alternateName": [
+    "anon-neuripsed26/multisource-memory-benchmark",
+    "Multi-Source Memory Benchmark (anonymous NeurIPS 2026 submission)"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "anon neuripsed",
+    "url": "https://huggingface.co/anon-neuripsed26"
+  },
+  "keywords": [
+    "question-answering",
+    "text-classification",
+    "English",
+    "cc-by-4.0",
+    "10K<n<100K",
+    "🇺🇸 Region: US",
+    "benchmark",
+    "selective-qa",
+    "personal-memory",
+    "multi-source",
+    "llm-evaluation",
+    "conflict-resolution",
+    "Synthetic"
+  ],
+  "license": "https://choosealicense.com/licenses/cc-by-4.0/",
+  "url": "https://huggingface.co/datasets/anon-neuripsed26/multisource-memory-benchmark",
+  "dct:conformsTo": "http://mlcommons.org/croissant/RAI/1.0",
+  "version": "0.1.0",
+  "datePublished": "2026-05-02",
+  "citeAs": "@misc{anonymous_2026_selective_qa_memory,\n  title={Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison},\n  author={Anonymous Authors},\n  year={2026},\n  note={Anonymous submission, NeurIPS 2026 Evaluations & Datasets Track}\n}",
+  "rai:dataLimitations": [
+    "The benchmark is synthetic and diagnostic. It does not contain field-collected personal-memory records and should not be used as evidence that a method will generalize to real users without external validation.",
+    "The released question set is intentionally narrow: 18 closed-class templates over five topics (work, diet, social, sleep, exercise) and English, US-style natural-language renders. Broader life domains, multilingual settings, and free-form disclosure are out of scope.",
+    "The data-generation process uses simplified persona distributions and controlled source distortions. These distortions are stress-test assumptions, not calibrated empirical effect sizes for real populations.",
+    "Cached LLM outputs are included only for exact reproduction of the paper tables. Downstream use of those outputs should respect the upstream model-provider terms linked in the dataset card."
+  ],
+  "rai:dataBiases": [
+    "Source distortions are deliberately injected: planner streams are optimistic, self-reports are topic-dependent, device logs contain dropout, and profile memories can be stale or idealized. These biases are benchmark mechanisms rather than incidental annotation artifacts.",
+    "Persona attributes, activity distributions, names, occupations, and measurement conventions are synthetic and simplified. The templates are Western-leaning and English-only, so results should not be read as demographic or cultural coverage claims."
+  ],
+  "rai:personalSensitiveInformation": [
+    "No real personal or sensitive information is included. All names, personas, daily events, source streams, and natural-language memory renders are synthetic.",
+    "Synthetic personas include simulated age, occupation, diet, exercise, sleep, work, and social-behavior attributes solely to support the benchmark's controlled question templates."
+  ],
+  "rai:dataUseCases": [
+    "Intended use: diagnostic evaluation of selective question-answering and conflict-resolution methods over controlled multi-source personal-memory evidence.",
+    "Intended use: studying answer/SKIP trade-offs, source-bias fusion, and resolver-versus-input decompositions under known synthetic distortions.",
+    "Not intended for training production personal-memory assistants, evaluating real-user privacy risks, or making demographic claims about real populations."
+  ],
+  "rai:dataSocialImpact": "Potential positive impact: the benchmark encourages personal-memory agents to abstain when evidence is insufficient rather than hallucinate answers, and helps diagnose when systems over-trust biased sources. Potential negative impact: techniques developed on the benchmark could be misapplied to infer sensitive habits or preferences from real users. Mitigations: the released data are fully synthetic, the paper frames deployment as requiring consent and external validation, and the dataset is documented as a diagnostic evaluation resource rather than a production-training corpus.",
+  "rai:hasSyntheticData": true,
+  "rai:dataCollection": "The dataset is generated by a deterministic Python data-generation pipeline. Each seed creates personas, a 30-day latent event table, five projected evidence streams, deterministic ground-truth answers, and templated natural-language renders.",
+  "rai:dataCollectionType": [
+    "Synthetic data generation",
+    "Software collection",
+    "Deterministic simulation"
+  ],
+  "rai:dataCollectionRawData": "The raw data are the generated latent event tables and persona parameters under benchmark/seeds/<seed>/<persona_id>/event_table.json; they are not collected from real people.",
+  "rai:dataCollectionMissingData": "Missingness is part of the synthetic design: device logs include field dropout and day-level missingness, while some sources lack fields for specific topics by construction. Ground-truth answers are complete.",
+  "rai:dataPreprocessingProtocol": [
+    "Structured source files are direct outputs of the projection pipeline. Natural-language renders are generated by a templated, non-LLM renderer from the structured sources.",
+    "Frozen LLM-extracted atoms and cached method outputs are included for reproducibility; generation of new LLM outputs requires explicit API credentials and is not needed to reproduce the reported tables.",
+    "For reviewer-friendly download, the heavy JSON file tree is also released as a checksum-verified ZIP archive under archives/. The archive contains the same benchmark/, extracted_atoms/, and method_outputs/ directories as the expanded Hugging Face tree."
+  ],
+  "rai:dataAnnotationProtocol": "Labels are deterministic ground-truth answers computed by question-specific aggregation functions from the latent event table and, for nine templates, structured source annotations. There are no human annotators.",
+  "rai:dataAnnotationAnalysis": [
+    "Ground-truth correctness is checked by deterministic re-execution and an internal independent label-rule reimplementation with 100% label agreement, as documented in the paper appendix and DATASHEET."
+  ],
+  "rai:annotationsPerItem": "One deterministic label per (persona, seed, question) instance; no human labels or inter-annotator agreement are involved.",
+  "rai:machineAnnotationTools": [
+    "survey2agent deterministic data-generation and ground-truth pipeline",
+    "templated natural-language renderer",
+    "frozen LLM extractor outputs for held-out test-split atoms"
+  ],
+  "rai:dataReleaseMaintenancePlan": "The anonymous Hugging Face artifact is maintained for review. Upon acceptance, it will be replaced by a permanent de-anonymized release with archival DOI; existing seeds/questions will not be silently changed.",
+  "prov:wasDerivedFrom": [
+    {
+      "@type": "prov:Entity",
+      "name": "Synthetic seed configuration",
+      "url": "https://huggingface.co/datasets/anon-neuripsed26/multisource-memory-benchmark/tree/main/benchmark/seeds",
+      "description": "Four deterministic seed directories s20260321--s20260324; no external source dataset or real-user record was used."
+    }
+  ],
+  "prov:wasGeneratedBy": [
+    {
+      "@type": "prov:Activity",
+      "name": "Deterministic synthetic benchmark generation",
+      "description": "Persona sampling, latent 30-day event simulation, source projection, natural-language rendering, and deterministic ground-truth labeling.",
+      "url": "https://github.com/anon-neuripsed26/multisource-memory-benchmark"
+    },
+    {
+      "@type": "prov:Activity",
+      "name": "Frozen model-output caching",
+      "description": "Cached LLM extraction and method-output artifacts were generated for byte-stable reproduction and uploaded with the dataset.",
+      "url": "https://huggingface.co/datasets/anon-neuripsed26/multisource-memory-benchmark/tree/main/method_outputs"
+    }
+  ]
+}

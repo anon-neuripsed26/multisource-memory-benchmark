@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark in your research, please cite the accompanying paper."
+title: "Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison"
+abstract: "Diagnostic evaluation framework for selective question-answering over multi-source personal memory with controlled per-source distortions."
+authors:
+  - given-names: "Anonymous"
+    family-names: "Anonymous"
+    affiliation: "Anonymized for double-blind review"
+license: Apache-2.0
+type: software
+repository-code: "https://github.com/anon-neuripsed26/multisource-memory-benchmark"
+keywords:
+  - benchmark
+  - selective question answering
+  - multi-source fusion
+  - personal memory
+  - LLM evaluation
+preferred-citation:
+  type: conference-paper
+  title: "Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison"
+  authors:
+    - given-names: "Anonymous"
+      family-names: "Anonymous"
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS) 2026 Evaluations & Datasets Track"
+  year: 2026
+  notes: "Anonymized for double-blind review. Final citation will be updated at camera-ready."

@@ -1,0 +1,13 @@
+# data/ runtime layout (4open release):
+#
+# - data/sample/        small offline mirror, tracked in git for reviewer browsing
+# - data/benchmark/     fetched by data/fetch_benchmark.py from Hugging Face
+# - data/extracted_atoms/ and data/method_outputs/  fetched alongside the benchmark
+#
+# All three fetched directories are intentionally NOT tracked in git
+# to keep the source repository code-only.  Anchor the patterns at the
+# data/ root so the tracked offline mirror under data/sample/ is not ignored.
+/benchmark/
+/extracted_atoms/
+/method_outputs/
+!/sample/

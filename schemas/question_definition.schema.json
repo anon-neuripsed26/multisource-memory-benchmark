@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:survey2agent:schema:question_definition:v1",
+  "title": "QuestionDefinition",
+  "description": "One entry in configs/questions.yaml (after YAML→JSON conversion). The full registry is loaded by survey2agent.extraction.question_spec.QUESTIONS.",
+  "type": "object",
+  "required": [
+    "question_text",
+    "type",
+    "topic",
+    "answer_space",
+    "answer_space_type",
+    "edge_options",
+    "time_window"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "question_text": {
+      "type": "string",
+      "description": "Natural-language prompt presented to extractors / LLMs."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D", "E", "F", "G", "Ctrl"],
+      "description": "Reasoning family (A=Arbitration, B=Identity, C=Plan-Reality, D=Trend, E=Causal, F=Missing-Data, G=Annotation, Ctrl=Control)."
+    },
+    "topic": {
+      "type": "string",
+      "description": "Domain (e.g. sleep, work, diet, social, exercise)."
+    },
+    "answer_space": {
+      "type": "array",
+      "description": "Full label list including any edge cases. Must NOT contain 'SKIP'.",
+      "items": {
+        "type": "string",
+        "not": {"const": "SKIP"}
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "answer_space_type": {
+      "type": "string",
+      "enum": ["ordinal", "nominal"]
+    },
+    "ordered_labels": {
+      "type": "array",
+      "description": "Substantive labels in the rank order used by ordinal_encoding and BCF/ABF bias shifts. This is not always the human-readable numeric display order for derived-count questions. Required iff answer_space_type=='ordinal'.",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "edge_options": {
+      "type": "array",
+      "description": "Labels treated as factual edge cases (not abstain).",
+      "items": {"type": "string"}
+    },
+    "time_window": {
+      "type": "integer",
+      "description": "Reference window in days.",
+      "minimum": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"answer_space_type": {"const": "ordinal"}}},
+      "then": {"required": ["ordered_labels"]}
+    }
+  ]
+}

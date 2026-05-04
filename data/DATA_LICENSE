@@ -1,0 +1,54 @@
+Attribution 4.0 International (CC BY 4.0)
+
+This dataset (synthetic personas, generation code outputs, ground-truth
+labels, schemas, and natural-language renders) is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+  * Share — copy and redistribute the material in any medium or format
+  * Adapt — remix, transform, and build upon the material for any
+    purpose, even commercially.
+
+Under the following terms:
+
+  * Attribution — You must give appropriate credit, provide a link to
+    the license, and indicate if changes were made. You may do so in
+    any reasonable manner, but not in any way that suggests the
+    licensor endorses you or your use.
+
+  * No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+The full legal code is available at:
+    https://creativecommons.org/licenses/by/4.0/legalcode
+A human-readable summary is available at:
+    https://creativecommons.org/licenses/by/4.0/
+
+----------------------------------------------------------------------
+
+SCOPE NOTE
+
+This CC-BY-4.0 license applies to the dataset structure, synthetic
+persona data, ground-truth labels, schemas, and natural-language
+renders distributed in this repository.
+
+Cached LLM outputs included for reproducibility (under
+``benchmark/results/``, ``extracted_atoms/``, and ``method_outputs/``)
+are derivative works of third-party model APIs and are governed by the
+terms of service of the upstream model providers (OpenAI, Google,
+OpenRouter, DeepSeek, etc.). See the "Cached LLM outputs and provider
+terms" section of ``README.md`` for the relevant links.
+
+ATTRIBUTION
+
+When citing or redistributing this dataset, please use the citation
+provided in ``CITATION.cff``. During the NeurIPS 2026 review period
+the author block is intentionally anonymized. The anonymous review
+repository is:
+
+    https://github.com/anon-neuripsed26/multisource-memory-benchmark
+
+A de-anonymized attribution and final repository URL will be provided
+upon paper acceptance.

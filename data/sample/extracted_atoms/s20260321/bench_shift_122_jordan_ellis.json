@@ -1,0 +1,131 @@
+{
+  "persona": "bench_shift_122_jordan_ellis",
+  "extraction": {
+    "A1": {
+      "profile_ltm": "20_or_more",
+      "planner": "20_or_more",
+      "daily_self_report": "20_or_more",
+      "objective_log": null,
+      "device_log": "20_or_more"
+    },
+    "A2": {
+      "profile_ltm": "0_to_3",
+      "planner": "0_to_3",
+      "daily_self_report": "0_to_3",
+      "objective_log": "0_to_3",
+      "device_log": "0_to_3"
+    },
+    "A3": {
+      "profile_ltm": "40_to_69",
+      "planner": "70_or_more",
+      "daily_self_report": "70_or_more",
+      "objective_log": "70_or_more",
+      "device_log": null
+    },
+    "B2": {
+      "profile_ltm": "within_1_day",
+      "planner": "more_than_1_above",
+      "daily_self_report": "more_than_1_above",
+      "objective_log": "within_1_day",
+      "device_log": "within_1_day"
+    },
+    "B3": {
+      "profile_ltm": "matches",
+      "planner": null,
+      "daily_self_report": "matches",
+      "objective_log": "matches",
+      "device_log": "matches"
+    },
+    "C2": {
+      "profile_ltm": null,
+      "planner": "above_50_pct",
+      "daily_self_report": "above_50_pct",
+      "objective_log": "25_to_50_pct",
+      "device_log": null
+    },
+    "C3": {
+      "profile_ltm": null,
+      "planner": null,
+      "daily_self_report": "within_20min_more_than_50pct",
+      "objective_log": null,
+      "device_log": "within_20min_more_than_50pct"
+    },
+    "D1": {
+      "profile_ltm": null,
+      "planner": "stayed_same",
+      "daily_self_report": "stayed_same",
+      "objective_log": "stayed_same",
+      "device_log": null
+    },
+    "D2": {
+      "profile_ltm": "within_1",
+      "planner": null,
+      "daily_self_report": "differs_more_than_1",
+      "objective_log": null,
+      "device_log": null
+    },
+    "E1": {
+      "profile_ltm": null,
+      "planner": "no_late_nights",
+      "daily_self_report": "no_late_nights",
+      "objective_log": "social_activity",
+      "device_log": "no_late_nights"
+    },
+    "E2": {
+      "profile_ltm": "no_fewer_than_30",
+      "planner": "no_fewer_than_30",
+      "daily_self_report": "no_fewer_than_30",
+      "objective_log": "no_fewer_than_30",
+      "device_log": "no_fewer_than_30"
+    },
+    "F1": {
+      "profile_ltm": "7_or_more",
+      "planner": "0_to_3",
+      "daily_self_report": "4_to_6",
+      "objective_log": "0_to_3",
+      "device_log": null
+    },
+    "F2": {
+      "profile_ltm": "both_occurred",
+      "planner": "yes_tracker_missing",
+      "daily_self_report": "both_occurred",
+      "objective_log": "both_occurred",
+      "device_log": "both_occurred"
+    },
+    "F3": {
+      "profile_ltm": "both_occurred",
+      "planner": "yes_worked_despite_no_entry",
+      "daily_self_report": "both_occurred",
+      "objective_log": null,
+      "device_log": "both_occurred"
+    },
+    "G1": {
+      "profile_ltm": null,
+      "planner": "deliberate_exercise_70plus",
+      "daily_self_report": "mix",
+      "objective_log": null,
+      "device_log": "deliberate_exercise_70plus"
+    },
+    "G2": {
+      "profile_ltm": "mix",
+      "planner": "voluntary_70plus",
+      "daily_self_report": "voluntary_70plus",
+      "objective_log": "mix",
+      "device_log": null
+    },
+    "Ctrl1": {
+      "profile_ltm": "4_or_more",
+      "planner": "0_to_1_days",
+      "daily_self_report": "4_or_more",
+      "objective_log": null,
+      "device_log": null
+    },
+    "Ctrl2": {
+      "profile_ltm": null,
+      "planner": "0_nights",
+      "daily_self_report": "0_nights",
+      "objective_log": null,
+      "device_log": "0_nights"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:survey2agent:schema:method_prediction:v1",
+  "title": "MethodPrediction",
+  "description": "One method's predictions for one (seed, persona) tuple. Submission to the rolling leaderboard packages one such file per persona under <method_dir>/<seed>/<persona_id>.json. See SUBMISSION_PROTOCOL.md.",
+  "type": "object",
+  "required": ["method_name", "seed", "persona_id", "predictions"],
+  "additionalProperties": false,
+  "properties": {
+    "method_name": {
+      "type": "string",
+      "description": "Paper-facing alias matching the leaderboard column.",
+      "minLength": 1
+    },
+    "seed": {
+      "type": "string",
+      "description": "Seed identifier as registered in configs/seeds.yaml (e.g. 's20260321').",
+      "pattern": "^s[0-9]{8}$"
+    },
+    "persona_id": {
+      "type": "string",
+      "description": "Persona id matching a directory under data/benchmark/seeds/<seed>/."
+    },
+    "predictions": {
+      "type": "object",
+      "description": "Map from question id to a single prediction.",
+      "minProperties": 18,
+      "maxProperties": 18,
+      "patternProperties": {
+        "^(A1|A2|A3|B2|B3|C2|C3|D1|D2|E1|E2|F1|F2|F3|G1|G2|Ctrl1|Ctrl2)$": {
+          "$ref": "#/$defs/Prediction"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional reproduction metadata (commit hash, env, wall-clock).",
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "Prediction": {
+      "type": "object",
+      "required": ["answer", "would_skip"],
+      "additionalProperties": false,
+      "properties": {
+        "answer": {
+          "type": "string",
+          "description": "Either a label from the question's answer_space or the literal 'SKIP'."
+        },
+        "would_skip": {
+          "type": "boolean",
+          "description": "Must be true iff answer == 'SKIP'."
+        },
+        "raw_answer": {
+          "type": ["string", "null"],
+          "description": "Optional pre-skip label. Must not equal 'SKIP'. For non-skip predictions, must equal answer or be null."
+        }
+      }
+    }
+  }
+}

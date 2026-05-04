@@ -1,0 +1,588 @@
+{
+  "schema_version": "v2.source_projection",
+  "source_type": "device_log",
+  "persona_id": "bench_shift_121_avery_ellis",
+  "persona_name": "Avery Ellis",
+  "records": [
+    {
+      "date": "2026-01-03",
+      "day_index": 1,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:38",
+          "wake_time": "06:06",
+          "duration_h": 7.8,
+          "wearable_quality_flag": "degraded"
+        },
+        "activity_tracker": {
+          "steps": 5370,
+          "active_minutes": 16,
+          "workout_detected": false
+        },
+        "work_session": {
+          "focus_minutes": 0,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "day_index": 2,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "23:12",
+          "wake_time": "06:23",
+          "duration_h": 7.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 3442,
+          "active_minutes": 35,
+          "workout_detected": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "day_index": 3,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-01-06",
+      "day_index": 4,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:41",
+          "wake_time": "06:16",
+          "duration_h": 7.2,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 2987,
+          "active_minutes": 20,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 219,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "day_index": 5,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:10",
+          "wake_time": "06:04",
+          "duration_h": 7.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 6290,
+          "active_minutes": 30,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 196,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 330,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "day_index": 6,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:22",
+          "wake_time": "06:20",
+          "duration_h": 8.0,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 9926,
+          "active_minutes": 62,
+          "workout_detected": true
+        }
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "day_index": 7,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:55",
+          "wake_time": "06:08",
+          "duration_h": 7.1,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 4335,
+          "active_minutes": 32,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 186,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "day_index": 8,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:39",
+          "wake_time": "06:27",
+          "duration_h": 7.2,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 9563,
+          "active_minutes": 68,
+          "workout_detected": true
+        }
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "day_index": 9,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:49",
+          "wake_time": "06:03",
+          "duration_h": 6.9,
+          "wearable_quality_flag": "degraded"
+        },
+        "activity_tracker": {
+          "steps": 5461,
+          "active_minutes": 43,
+          "workout_detected": false
+        },
+        "work_session": {
+          "focus_minutes": 0,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "day_index": 10,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:56",
+          "wake_time": "05:53",
+          "duration_h": 7.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 6605,
+          "active_minutes": 19,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 219,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 412,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "day_index": 11,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:14",
+          "wake_time": "05:55",
+          "duration_h": 7.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 4001,
+          "active_minutes": 29,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 135,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 447,
+          "late_finish": true
+        }
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "day_index": 12,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:55",
+          "wake_time": "06:32",
+          "duration_h": 7.4,
+          "wearable_quality_flag": "degraded"
+        },
+        "activity_tracker": {
+          "steps": 10955,
+          "active_minutes": 67,
+          "workout_detected": true
+        }
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "day_index": 13,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-01-16",
+      "day_index": 14,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:31",
+          "wake_time": "06:31",
+          "duration_h": 8.6,
+          "wearable_quality_flag": "degraded"
+        },
+        "activity_tracker": {
+          "steps": 3098,
+          "active_minutes": 16,
+          "workout_detected": false
+        },
+        "work_session": {
+          "focus_minutes": 316,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "day_index": 15,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-01-18",
+      "day_index": 16,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:18",
+          "wake_time": "06:43",
+          "duration_h": 8.9,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 4021,
+          "active_minutes": 40,
+          "workout_detected": false
+        },
+        "work_session": {
+          "focus_minutes": 14,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "day_index": 17,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:59",
+          "wake_time": "06:55",
+          "duration_h": 9.2,
+          "wearable_quality_flag": "degraded"
+        },
+        "activity_tracker": {
+          "steps": 5038,
+          "active_minutes": 28,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 95,
+          "late_night_use": true
+        },
+        "work_session": {
+          "focus_minutes": 284,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "day_index": 18,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-01-21",
+      "day_index": 19,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:58",
+          "wake_time": "06:33",
+          "duration_h": 8.4,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 9407,
+          "active_minutes": 80,
+          "workout_detected": true
+        },
+        "phone_usage": {
+          "screen_time_min": 115,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 290,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "day_index": 20,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:38",
+          "wake_time": "06:03",
+          "duration_h": 8.2,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 5988,
+          "active_minutes": 36,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 208,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 322,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "day_index": 21,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:52",
+          "wake_time": "06:14",
+          "duration_h": 8.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 7262,
+          "active_minutes": 38,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 254,
+          "late_night_use": true
+        },
+        "work_session": {
+          "focus_minutes": 307,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "day_index": 22,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:12",
+          "wake_time": "06:28",
+          "duration_h": 8.4,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 7685,
+          "active_minutes": 64,
+          "workout_detected": true
+        },
+        "phone_usage": {
+          "screen_time_min": 217,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "day_index": 23,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-01-26",
+      "day_index": 24,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:36",
+          "wake_time": "06:36",
+          "duration_h": 8.7,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 12689,
+          "active_minutes": 85,
+          "workout_detected": true
+        },
+        "work_session": {
+          "focus_minutes": 376,
+          "late_finish": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "day_index": 25,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:33",
+          "wake_time": "06:37",
+          "duration_h": 8.6,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 4115,
+          "active_minutes": 29,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 199,
+          "late_night_use": true
+        }
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "day_index": 26,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:11",
+          "wake_time": "06:50",
+          "duration_h": 8.9,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 7483,
+          "active_minutes": 69,
+          "workout_detected": true
+        },
+        "phone_usage": {
+          "screen_time_min": 136,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "day_index": 27,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:08",
+          "wake_time": "06:55",
+          "duration_h": 8.9,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 5139,
+          "active_minutes": 32,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 92,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "day_index": 28,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "21:16",
+          "wake_time": "05:51",
+          "duration_h": 8.2,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 7698,
+          "active_minutes": 30,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 228,
+          "late_night_use": false
+        }
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "day_index": 29,
+      "available": false,
+      "signals": {}
+    },
+    {
+      "date": "2026-02-01",
+      "day_index": 30,
+      "available": true,
+      "signals": {
+        "sleep_tracker": {
+          "bedtime": "22:11",
+          "wake_time": "06:40",
+          "duration_h": 8.0,
+          "wearable_quality_flag": "good"
+        },
+        "activity_tracker": {
+          "steps": 5883,
+          "active_minutes": 16,
+          "workout_detected": false
+        },
+        "phone_usage": {
+          "screen_time_min": 161,
+          "late_night_use": false
+        },
+        "work_session": {
+          "focus_minutes": 45,
+          "late_finish": false
+        }
+      }
+    }
+  ]
+}

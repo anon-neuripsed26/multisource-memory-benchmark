@@ -1,0 +1,26 @@
+# Seed registry
+#
+# 4 seeds × 480 personas. Dev = seed 1; eval = seeds 2-4.
+# Concrete numeric seeds are intentionally NOT shown in the paper body
+# (they encode dates); appear only in code and appendix.
+
+seeds:
+  - id: 1
+    role: dev
+    numeric: 20260321
+    persona_count: 480
+
+  - id: 2
+    role: eval
+    numeric: 20260322
+    persona_count: 480
+
+  - id: 3
+    role: eval
+    numeric: 20260323
+    persona_count: 480
+
+  - id: 4
+    role: eval
+    numeric: 20260324
+    persona_count: 480

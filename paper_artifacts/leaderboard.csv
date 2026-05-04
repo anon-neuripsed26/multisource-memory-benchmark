@@ -1,0 +1,11 @@
+method_name,submitter,seed,macro_f1,macro_f1_ci_lo,macro_f1_ci_hi,micro_f1,micro_f1_ci_lo,micro_f1_ci_hi,selective_macro_f1,coverage,n_seeds,submission_commit,submission_issue
+# Leaderboard is populated by maintainers after each accepted leaderboard issue
+# (see SUBMISSION_PROTOCOL.md for cadence and procedure). The header above
+# reflects the metric set documented in SUBMISSION_PROTOCOL.md "What the
+# maintainer scores" and matches the bootstrap protocol used in the paper
+# tables under paper_artifacts/output/main/. Initial paper baselines (Random,
+# MajorityClass, SSB, BCF, NBF, DSNBF, ABF, OracleExtraction, LLM-Direct,
+# LLM-SchemaAware, LLM-FewShot) are emitted by `make reproduce-main` into
+# `paper_artifacts/output/main/tab_main_overall.csv`; this leaderboard.csv
+# starts empty and accumulates external submissions.
+

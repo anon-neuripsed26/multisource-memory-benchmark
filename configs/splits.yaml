@@ -1,0 +1,31 @@
+# Per-seed splits (480 personas → 216 / 48 / 96 / 120)
+#
+# Splits are deterministic functions of (seed, persona_id).
+# (src/survey2agent/data_generation/splits.py). This YAML records the canonical proportions and roles.
+
+split:
+  total_per_seed: 480
+  partitions:
+    train:
+      count: 216
+      fraction: 0.45
+      role: "Method parameter fitting (e.g., MLE for ABF, NBF emission matrices, BCF reliabilities)."
+    dev:
+      count: 48
+      fraction: 0.10
+      role: "Hyperparameter tuning during development (e.g., regularization, prior strength)."
+    cal:
+      count: 96
+      fraction: 0.20
+      role: "SKIP threshold calibration (theta_E, theta_Delta) using F0.5 grid search."
+    test:
+      count: 120
+      fraction: 0.25
+      role: "Final reported numbers (accuracy, selective accuracy, coverage, F0.5, bootstrap CI)."
+
+  deterministic_assignment: true
+  notes: |
+    Within each seed, persona difficulty class is balanced across partitions
+    (each partition contains roughly equal counts of stable / temporal_shift /
+    stated_vs_revealed personas). The exact assignment is bit-for-bit
+    reproducible from the seed.

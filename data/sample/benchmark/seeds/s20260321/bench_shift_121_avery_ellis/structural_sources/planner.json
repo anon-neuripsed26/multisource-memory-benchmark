@@ -1,0 +1,1058 @@
+{
+  "schema_version": "v2.source_projection",
+  "source_type": "planner",
+  "persona_id": "bench_shift_121_avery_ellis",
+  "persona_name": "Avery Ellis",
+  "records": [
+    {
+      "date": "2026-01-03",
+      "day_index": 1,
+      "sleep_target": {
+        "bedtime": "22:18",
+        "duration_h": 7.8,
+        "wake_time": "06:06"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.5,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "day_index": 2,
+      "sleep_target": {
+        "bedtime": "22:18",
+        "duration_h": 7.8,
+        "wake_time": "06:06"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.2,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "day_index": 3,
+      "sleep_target": {
+        "bedtime": "22:02",
+        "duration_h": 7.8,
+        "wake_time": "05:50"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "day_index": 4,
+      "sleep_target": {
+        "bedtime": "22:02",
+        "duration_h": 7.8,
+        "wake_time": "05:50"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 8.0,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "day_index": 5,
+      "sleep_target": {
+        "bedtime": "22:00",
+        "duration_h": 8.1,
+        "wake_time": "06:06"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "day_index": 6,
+      "sleep_target": {
+        "bedtime": "22:04",
+        "duration_h": 7.8,
+        "wake_time": "05:52"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.0,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "day_index": 7,
+      "sleep_target": {
+        "bedtime": "21:58",
+        "duration_h": 7.8,
+        "wake_time": "05:46"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 8.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "day_index": 8,
+      "sleep_target": {
+        "bedtime": "22:10",
+        "duration_h": 7.8,
+        "wake_time": "05:58"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 7.1,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "day_index": 9,
+      "sleep_target": {
+        "bedtime": "22:06",
+        "duration_h": 7.8,
+        "wake_time": "05:54"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.5,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "day_index": 10,
+      "sleep_target": {
+        "bedtime": "22:15",
+        "duration_h": 8.2,
+        "wake_time": "06:27"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.3,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "day_index": 11,
+      "sleep_target": {
+        "bedtime": "22:12",
+        "duration_h": 7.8,
+        "wake_time": "06:00"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.3,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "day_index": 12,
+      "sleep_target": {
+        "bedtime": "21:59",
+        "duration_h": 7.8,
+        "wake_time": "05:47"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.9,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "day_index": 13,
+      "sleep_target": {
+        "bedtime": "22:20",
+        "duration_h": 8.1,
+        "wake_time": "06:26"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.7,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "day_index": 14,
+      "sleep_target": {
+        "bedtime": "22:15",
+        "duration_h": 8.0,
+        "wake_time": "06:15"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 72
+      },
+      "work_target": {
+        "hours_limit": 7.5,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "day_index": 15,
+      "sleep_target": {
+        "bedtime": "22:07",
+        "duration_h": 7.8,
+        "wake_time": "05:55"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.4,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "day_index": 16,
+      "sleep_target": {
+        "bedtime": "22:18",
+        "duration_h": 7.8,
+        "wake_time": "06:06"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.3,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "day_index": 17,
+      "sleep_target": {
+        "bedtime": "22:02",
+        "duration_h": 7.8,
+        "wake_time": "05:50"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 8.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "day_index": 18,
+      "sleep_target": {
+        "bedtime": "22:14",
+        "duration_h": 7.8,
+        "wake_time": "06:02"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.1,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "day_index": 19,
+      "sleep_target": {
+        "bedtime": "22:09",
+        "duration_h": 7.8,
+        "wake_time": "05:57"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.3,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "day_index": 20,
+      "sleep_target": {
+        "bedtime": "22:10",
+        "duration_h": 8.2,
+        "wake_time": "06:22"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 78
+      },
+      "work_target": {
+        "hours_limit": 7.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "day_index": 21,
+      "sleep_target": {
+        "bedtime": "22:06",
+        "duration_h": 7.8,
+        "wake_time": "05:54"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 8.3,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "day_index": 22,
+      "sleep_target": {
+        "bedtime": "22:13",
+        "duration_h": 7.8,
+        "wake_time": "06:01"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 7.5,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "day_index": 23,
+      "sleep_target": {
+        "bedtime": "22:09",
+        "duration_h": 7.8,
+        "wake_time": "05:57"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.4,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "day_index": 24,
+      "sleep_target": {
+        "bedtime": "21:56",
+        "duration_h": 8.2,
+        "wake_time": "06:08"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 72
+      },
+      "work_target": {
+        "hours_limit": 7.1,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "day_index": 25,
+      "sleep_target": {
+        "bedtime": "22:07",
+        "duration_h": 7.8,
+        "wake_time": "05:55"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.4,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "day_index": 26,
+      "sleep_target": {
+        "bedtime": "22:12",
+        "duration_h": 8.3,
+        "wake_time": "06:30"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 76
+      },
+      "work_target": {
+        "hours_limit": 7.4,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "day_index": 27,
+      "sleep_target": {
+        "bedtime": "21:56",
+        "duration_h": 7.8,
+        "wake_time": "05:44"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.2,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": true
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "day_index": 28,
+      "sleep_target": {
+        "bedtime": "21:57",
+        "duration_h": 7.8,
+        "wake_time": "05:45"
+      },
+      "exercise_target": {
+        "intended": false,
+        "type": "yoga",
+        "duration_min": 0
+      },
+      "work_target": {
+        "hours_limit": 8.0,
+        "avoid_overtime": true,
+        "finish_by": "18:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "day_index": 29,
+      "sleep_target": {
+        "bedtime": "21:58",
+        "duration_h": 7.8,
+        "wake_time": "05:46"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.3,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "day_index": 30,
+      "sleep_target": {
+        "bedtime": "22:15",
+        "duration_h": 7.8,
+        "wake_time": "06:03"
+      },
+      "exercise_target": {
+        "intended": true,
+        "type": "yoga",
+        "duration_min": 66
+      },
+      "work_target": {
+        "hours_limit": 7.4,
+        "avoid_overtime": true,
+        "finish_by": "16:00"
+      },
+      "diet_target": {
+        "meals": 2,
+        "home_cooked_priority": true,
+        "coffee_limit": 2
+      },
+      "social_target": {
+        "intent": false
+      },
+      "wellbeing_target": {
+        "mood_goal": 4
+      },
+      "persona_context": {
+        "city": "Pittsburgh, PA",
+        "occupation": "physical therapist",
+        "dietary_restriction": "none"
+      }
+    }
+  ]
+}

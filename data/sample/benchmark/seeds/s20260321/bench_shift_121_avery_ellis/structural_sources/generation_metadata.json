@@ -1,0 +1,33 @@
+{
+  "schema_version": "v2.source_projection",
+  "persona_id": "bench_shift_121_avery_ellis",
+  "difficulty_type": "temporal_shift",
+  "seed": 20260321,
+  "persona_seed_namespace": {
+    "profile_ltm": 2196173487,
+    "daily_self_report": 3345188731,
+    "planner": 3327179349,
+    "device_log": 1311467672,
+    "objective_log": 2573074446
+  },
+  "source_knobs": {
+    "profile_anchor_end_day": 12,
+    "self_report_conflict_rate": 0.2,
+    "self_report_underreport_bias": 0.18,
+    "self_report_overreport_bias": 0.12,
+    "planner_optimism_bias": 0.2,
+    "planner_behavior_gap_rate": 0.26,
+    "device_dropout_rate": 0.14,
+    "device_noise_rate": 0.13,
+    "objective_dropout_rate": 0.12,
+    "objective_noise_rate": 0.1
+  },
+  "summary": {
+    "days": 30,
+    "profile_anchor_end_day": 12,
+    "self_report_conflict_days": 15,
+    "planner_gap_days": 25,
+    "device_missing_days": 6,
+    "objective_missing_days": 2
+  }
+}

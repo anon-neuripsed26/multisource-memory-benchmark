@@ -1,0 +1,20 @@
+# 4open mirror — code-only; runtime data and build artifacts are ignored.
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+
+# Fetched dataset (downloaded by data/fetch_benchmark.py)
+data/benchmark/
+data/extracted_atoms/
+data/method_outputs/
+
+# Generated paper outputs (created by `make reproduce`)
+paper_artifacts/output/
+
+# Generated results (created by `make fetch` / `make reproduce`)
+results/

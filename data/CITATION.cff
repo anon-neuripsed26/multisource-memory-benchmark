@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying paper."
+title: "Multi-Source Memory Benchmark (Selective QA Diagnostic Testbed)"
+abstract: >
+  A diagnostic testbed for selective question-answering (ANSWER /
+  abstain) over conflicting multi-source personal memory. Each
+  persona has five evidence streams projected from a single latent
+  event table with known, controlled per-source distortions, allowing
+  methods to be measured against a deterministic latent ground truth
+  rather than against any single source. 4 seeds x 480 personas x 18
+  questions = 34,560 instances spanning 8 reasoning types. The
+  accompanying paper compares baselines, structured fusion methods,
+  and frontier LLMs.
+type: dataset
+license: CC-BY-4.0
+version: "0.1.0-anonymous"
+date-released: "2026-05-01"
+url: ""  # provided to reviewers via OpenReview during double-blind review; replaced with the de-anonymised DOI at camera-ready
+keywords:
+  - selective question answering
+  - personal memory
+  - multi-source aggregation
+  - synthetic benchmark
+  - LLM evaluation
+  - conflict resolution
+authors:
+  - family-names: "Anonymous Authors"
+    given-names: "NeurIPS 2026 Submission"
+preferred-citation:
+  type: generic
+  title: "Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison"
+  authors:
+    - family-names: "Anonymous Authors"
+      given-names: "NeurIPS 2026 Submission"
+  year: 2026
+  notes: >
+    Anonymous submission to the NeurIPS 2026 Evaluations & Datasets
+    Track. The de-anonymized citation entry will replace this block
+    upon paper acceptance.
